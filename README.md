@@ -1,4 +1,4 @@
-# cmd-ai
+# cmd-ai [![Build Status](https://travis-ci.org/smilli/cmd-ai.svg?branch=master)](https://travis-ci.org/smilli/cmd-ai)
 A tool that performs commands in the shell by parsing natural language input
 from the user.
 
