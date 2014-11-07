@@ -1,4 +1,5 @@
 import nltk
+import sys
 from graph import *
 from personal import *
 
@@ -68,4 +69,5 @@ def output(text):
 
 output("Hello. How may I help you?")
 while True:
-    process_input(input())
+    string = sys.stdin.readline()
+    process_input(string)

@@ -83,7 +83,7 @@ transforms = { # TODO automatically add commands
     "list": {"_t": ["display"]},
     "'s": {"_t": ["is"]},
     "display": {
-        "files": {"_e": lambda: call('dir', shell=True)},
+        "files": {"_e": lambda: call('ls', shell=True)},
         "my": {"files": {"_t": ["display", "files"]}},
         "me": {"my": {"files": {"_t": ["display", "files"]}}},
         "_v": {"_vv": 'x', "_t": ["go", "to", "x"]}
